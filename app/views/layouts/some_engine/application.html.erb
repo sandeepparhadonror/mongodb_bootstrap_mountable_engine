@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SomeEngine</title>
+  <%= stylesheet_link_tag    "some_engine/application", :media => "all" %>
+  <%= javascript_include_tag "some_engine/application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
