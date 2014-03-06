@@ -7,8 +7,8 @@ require "some_engine/version"
 Gem::Specification.new do |s|
   s.name        = "some_engine"
   s.version     = SomeEngine::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["TODO: sandeep parhad"]
+  s.email       = ["TODO: sandeepparhadonror@gmail.com"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of SomeEngine."
   s.description = "TODO: Description of SomeEngine."
@@ -18,6 +18,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.17"
   s.add_dependency "jquery-rails"
+  s.add_dependency 'turbolinks'
+  s.add_dependency 'jquery-turbolinks'
+
   s.add_dependency 'mongoid'
   s.add_dependency 'bson_ext'
   s.add_dependency 'mongo_ext'
