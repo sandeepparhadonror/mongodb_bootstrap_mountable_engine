@@ -18,8 +18,10 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.17"
   s.add_dependency "jquery-rails"
-  s.add_dependency 'turbolinks'
+  s.add_dependency 'turbolinks'                           #  javascript 
   s.add_dependency 'jquery-turbolinks'
+  s.add_dependency 'high_voltage', '~> 2.1.0'             #  static pages serve
+
 
   s.add_dependency 'mongoid'
   s.add_dependency 'bson_ext'
