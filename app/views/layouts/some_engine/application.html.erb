@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>SomeEngine</title>
-  <%= stylesheet_link_tag    "some_engine/application", :media => "all" , "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "some_engine/application" , "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="<%= meta_description %>">
+      <meta name="author" content="<%= meta_author %>">
+      <meta name="Keywords" content="<%= meta_keywords %>">
+ 
+      <title>Mountable_Bootstrap_Mongodb</title> 
 
-<%= yield %>
+      <%= stylesheet_link_tag    "some_engine/application", :media => "all" , "data-turbolinks-track" => true %>
+      <%= javascript_include_tag "some_engine/application" , "data-turbolinks-track" => true %>
+      <%= csrf_meta_tags %>
 
-</body>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+       
+  </head>
+
+
+  <body>
+
+   <%= yield %>
+
+  </body>
 </html>
