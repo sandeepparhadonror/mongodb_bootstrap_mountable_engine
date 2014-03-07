@@ -2,7 +2,7 @@ require_dependency "some_engine/application_controller"
 
 module SomeEngine
   class StudentsController < ApplicationController
-    # GET /students
+   # GET /students
     # GET /students.json
     def index
       @students = Student.all
@@ -83,5 +83,10 @@ module SomeEngine
         format.json { head :no_content }
       end
     end
+
+   def cursol 
+  
+   end
+
   end
 end
