@@ -4,6 +4,8 @@
 
 https://gist.github.com/iamatypeofwalrus/6467148
 
-http://www.bootply.com/62603  
+Bootstrap themes 
 
+http://www.bootply.com/62603  
+http://cleancanvas.herokuapp.com/
 
